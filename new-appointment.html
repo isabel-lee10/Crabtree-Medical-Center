@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>New Appointment</title>
 </head>
 <body>
     <form>
@@ -13,10 +13,35 @@
             <option value="dr-1">Thomas Crabtree</option>
             <option value="dr-2">Peter Russell</option>
         </select><br>
-        <label for="dr-input">Name:</label>
-        <input type="text" id="dr-input" name="dr-information" placeholder="Enter a name">
+        
+
 
         <h2 class="form-heading">Patient Information</h2>
+
+        <label for="p-fname">First name:</label>
+        <input id="p-fname" class="p-input" name="patient-name" type="text">
+        <br>
+
+        <label for="p-mname">Middle name:</label>
+        <input id="p-mname" class="p-input" name="patient-name" type="text">
+        <br>
+
+        <label for="p-lname">Last name:</label>
+        <input id="p-lname" class="p-text-input" name="patient-name" type="text">
+        <br>
+
+        <label for="p-dob">Date of Birth:</label>
+        <input type="date" id="p-dob">
+        <br>
+
+        <label for="sex">M</label>
+        <input type="radio" id="sex" name="sex" value="male">
+        <label for="sex">F</label>
+        <input type="radio" id="sex" name="sex" value="female">
+        <br>
+
+        <label for="p-address">Address:</label>
+            <input type="text" id="p-address" class="p-text-input">
 
     </form>
 </body>
