@@ -1,0 +1,15 @@
+header {
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+h1 {
+    color: #4a86e8ff;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+}
